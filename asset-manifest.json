@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-infinite-scroll-pager/static/css/main.42cc8b22.chunk.css",
+    "main.js": "/react-infinite-scroll-pager/static/js/main.09018050.chunk.js",
+    "main.js.map": "/react-infinite-scroll-pager/static/js/main.09018050.chunk.js.map",
+    "runtime-main.js": "/react-infinite-scroll-pager/static/js/runtime-main.3db4d524.js",
+    "runtime-main.js.map": "/react-infinite-scroll-pager/static/js/runtime-main.3db4d524.js.map",
+    "static/js/2.065d7047.chunk.js": "/react-infinite-scroll-pager/static/js/2.065d7047.chunk.js",
+    "static/js/2.065d7047.chunk.js.map": "/react-infinite-scroll-pager/static/js/2.065d7047.chunk.js.map",
+    "index.html": "/react-infinite-scroll-pager/index.html",
+    "precache-manifest.042f20792dbec65e3ad8113412025537.js": "/react-infinite-scroll-pager/precache-manifest.042f20792dbec65e3ad8113412025537.js",
+    "service-worker.js": "/react-infinite-scroll-pager/service-worker.js",
+    "static/css/main.42cc8b22.chunk.css.map": "/react-infinite-scroll-pager/static/css/main.42cc8b22.chunk.css.map",
+    "static/js/2.065d7047.chunk.js.LICENSE.txt": "/react-infinite-scroll-pager/static/js/2.065d7047.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3db4d524.js",
+    "static/js/2.065d7047.chunk.js",
+    "static/css/main.42cc8b22.chunk.css",
+    "static/js/main.09018050.chunk.js"
+  ]
+}
