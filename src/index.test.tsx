@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import InfiniteScrollPager from ".";
 
-describe('ExampleComponent', () => {
-  it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
-  })
-})
+describe("InfiniteScrollPager", () => {
+  it("is truthy", () => {
+    expect(InfiniteScrollPager).toBeTruthy();
+  });
+});

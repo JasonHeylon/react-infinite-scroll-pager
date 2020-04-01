@@ -1,16 +1,22 @@
 {
-  "parser": "babel-eslint",
+  "parser": "@typescript-eslint/parser",
   "extends": [
     "standard",
     "standard-react",
     "plugin:prettier/recommended",
     "prettier/standard",
-    "prettier/react"
+    "prettier/react",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "plugins": [
+    "@typescript-eslint/eslint-plugin"
   ],
   "env": {
     "node": true
   },
   "parserOptions": {
+    "project": "tsconfig.json",
+    "sourceType": "module",
     "ecmaVersion": 2020,
     "ecmaFeatures": {
       "legacyDecorators": true,
@@ -28,6 +34,11 @@
     "react/jsx-handler-names": 0,
     "react/jsx-fragments": 0,
     "react/no-unused-prop-types": 0,
-    "import/export": 0
+    "import/export": 0,
+    "@typescript-eslint/interface-name-prefix": [
+      "error", {
+        "prefixWithI": "always"
+      }
+    ]
   }
 }
