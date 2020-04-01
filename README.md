@@ -13,9 +13,9 @@ npm install --save react-infinite-scroll-pager
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
-import MyComponent from 'react-infinite-scroll-pager'
+import InfiniteScrollPager from "react-infinite-scroll-pager";
 
 class Example extends Component {
   render() {
@@ -32,7 +32,7 @@ class Example extends Component {
           <Item key={item.id} item={item} />
         ))}
       </InfiniteScrollPager>
-    )
+    );
   }
 }
 ```
