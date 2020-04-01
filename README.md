@@ -16,11 +16,23 @@ npm install --save react-infinite-scroll-pager
 import React, { Component } from 'react'
 
 import MyComponent from 'react-infinite-scroll-pager'
-import 'react-infinite-scroll-pager/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return (
+      <InfiniteScrollPager
+        page={page}
+        totalPage={5}
+        isLoading={isLoading}
+        loader={<div>loading...</div>}
+        noMoreTip={<div>No more articles</div>}
+        onPageChange={page => loadList(page)}
+      >
+        {list.map(item => (
+          <Item key={item.id} item={item} />
+        ))}
+      </InfiniteScrollPager>
+    )
   }
 }
 ```
