@@ -1,6 +1,6 @@
 import React from "react";
 
-import { InfiniteScrollPager } from "react-infinite-scroll-pager";
+import InfiniteScrollPager from "react-infinite-scroll-pager";
 
 const getUrl = page => `https://cnodejs.org/api/v1/topics?page=${page}`;
 
